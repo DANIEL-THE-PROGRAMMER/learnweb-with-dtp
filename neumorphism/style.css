@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f2f3fb;
+  color: #343f68;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+  color: #7e90f8;
+}
+
+.container {
+  width: 500px;
+  max-width: 100%;
+  padding: 10px;
+}
+
+.card-name {
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.btn-blue {
+  background-color: #7e90f8;
+  box-shadow: 5px 5px 10px #7e90f8;
+}
+
+.btn {
+  display: block;
+  width: 100%;
+  margin: 30px auto;
+}
